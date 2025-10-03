@@ -11,5 +11,5 @@ This script can check both the Current User and Local Machine stores, filter for
    - .\Get-CertInventory.ps1 -ExpiringInDays 30
 
 
-- **CSV 내보내기:**
+- **CSV export:**
   - .\Get-CertInventory.ps1 -ExportCsv C:\Temp\certs_inventory.csv
