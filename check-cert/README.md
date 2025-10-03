@@ -1,5 +1,9 @@
 ## Useage
 
+A PowerShell script that neatly extracts the name (FriendlyName/Subject) and expiration date (NotAfter) for the certificates installed on a Windows server.
+
+This script can check both the Current User and Local Machine stores, filter for certificates that are nearing expiration, and export the results to a CSV file, all in one go.
+
 - Running it with Administrator privileges (PowerShell) will help you avoid permission issues when accessing the LocalMachine store.
 - If you only want to view the web server certificates, narrow the search by using -Stores My,WebHosting.
 
